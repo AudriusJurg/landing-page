@@ -36,6 +36,56 @@ ul {
 
 .intro {
     display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #1F2937;
+    gap: 8px;
+    padding:8px;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    text-wrap: wrap;
+}
+
+.container>.title {
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+
+.container>#text {
+    font-size:18px;
+    padding:0px;
+    margin:0px; 
+    margin-bottom: 14px;
+    color:#E5E7EB;
+}
+
+.container>#button {
+    background:#3882F6;
+    border-radius:10px;
+    padding:10px 20px;
+    width:fit-content;
+    font-size:18px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-placeholder {
+    background-color: gray;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container, .img-placeholder {
+    margin: 40px 0px;
+    padding: 8px;
 }
 
 .information {
