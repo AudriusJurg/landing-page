@@ -11,7 +11,7 @@ body {
     height:72px;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 0px 64px;
 }
 
 .header>.logo {
@@ -39,9 +39,10 @@ ul {
     display:flex;
     justify-content: space-between;
     align-items: stretch;
+    flex-wrap: wrap;
     background-color: #1F2937;
-    gap: 8px;
-    padding:8px;
+    gap: 16px;
+    padding:64px;
 }
 
 .container {
@@ -49,6 +50,8 @@ ul {
     flex-direction: column;
     text-align: left;
     text-wrap: wrap;
+    width:45%;
+    min-width:200px;
 }
 
 .container>.title {
@@ -78,19 +81,56 @@ ul {
 }
 .img-placeholder {
     background-color: gray;
-    width:100%;
+    min-height: 225px;
+    min-width: 450px;
+    width:50%;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
-.container, .img-placeholder {
-    margin: 40px 0px;
-    padding: 8px;
-}
 
 .information {
+    text-align:center;
+    margin-bottom:96px;
+}
+
+.info-header {
+    margin-top:32px;
+    margin-bottom:32px;
+    font-size: 36px;
+    font-weight:bolder;
+}
+
+.info-container {
     display:flex;
+    justify-content: center;
+    margin-right:20%;
+    margin-left:20%;
+}
+
+.img-text {
+    margin:16px;
+    color:gray;
+    font-size:18px;
+    font-weight:400px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+    width:100%;
+    max-width:150px;
+}
+
+.image {
+    border-width:5px;
+    border-style:solid;
+    border-color:#3882F6;
+    border-radius:10px;
+    aspect-ratio: 1/1;
+    width:100%;
+    min-width: 125px;
 }
 
 .quote {
