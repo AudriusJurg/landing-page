@@ -156,9 +156,48 @@ ul {
 
 div.signup {
     display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    gap:20px;
+    padding:40px 80px;
+    margin: 96px;
+    border-radius:10px;
+}
+
+.signup .title-text {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#button-call {
+    border-width:3px;
+    border-style:solid;
+    border-color:#F9FAF8;
+    border-radius:10px;
+    padding:10px 40px;
+    width:fit-content;
+    font-size:18px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
 }
 
 .footnote {
     display:flex;
     background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
